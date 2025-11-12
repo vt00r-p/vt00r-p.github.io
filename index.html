@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Vitor Pereira - Portfólio DevOps</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Vitor P.</h1>
+
+        <button class="hamburger" aria-label="Abrir menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="sobre" class="container hidden">
+        <img src="imag1.png" alt="Foto de perfil" class="profile-pic" />
+        <div>
+          <h2>Olá! Me Chamo Vitor.</h2>
+          <p>
+            Estudante de Análise e Desenvolvimento de Sistemas e entusiasta de
+            Cloud & DevOps. Meu foco principal é o aprendizado em
+            <strong>Linux</strong> e <strong>Nuvem (Cloud)</strong>,
+            aprofundando em ferramentas de automação, CI/CD e infraestrutura
+            como código para construir sistemas escaláveis e resilientes.
+          </p>
+        </div>
+      </section>
+
+      <section id="habilidades" class="container">
+        <h2 class="hidden">Habilidades Técnicas</h2>
+
+        <div class="skills-grid hidden">
+          <div class="skill-card">
+            <i class="devicon-docker-plain"></i>
+            <span>Docker</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-terraform-plain"></i>
+            <span>Terraform</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-amazonwebservices-original"></i>
+            <span>AWS</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-github-original"></i>
+            <span>GitHub Actions</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-python-plain"></i>
+            <span>Python</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-linux-plain"></i>
+            <span>Linux</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projetos" class="container">
+        <h2 class="hidden">Projetos</h2>
+
+        <div class="projetos-grid hidden">
+          <div class="project-card">
+            <h3>Pipeline CI/CD no GitHub Actions</h3>
+            <p>
+              Criação de um pipeline automatizado para build, teste e deploy de
+              uma aplicação simples.
+            </p>
+            <a href="#" target="_blank">Ver no GitHub</a>
+          </div>
+          <div class="project-card">
+            <h3>Infra na AWS com Terraform</h3>
+            <p>
+              Provisionamento de uma VPC, Subnets e uma instância EC2 usando
+              Infraestrutura como Código.
+            </p>
+            <a href="#" target="_blank">Ver no GitHub</a>
+          </div>
+          <div class="project-card">
+            <h3>Containerização com Docker</h3>
+            <p>
+              Dockerfile e docker-compose para rodar uma aplicação Node.js e um
+              banco de dados.
+            </p>
+            <a href="#" target="_blank">Ver no GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contato" class="hidden">
+      <div class="container">
+        <p>Vamos conversar!</p>
+        <p>Email: josevitorpereira903@gmail.com</p>
+        <p>
+          <a href="#" target="_blank">LinkedIn</a> |
+          <a href="#" target="_blank">GitHub</a>
+        </p>
+        <p style="margin-top: 10px; font-size: 12px; opacity: 0.5"></p>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
